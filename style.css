@@ -1,0 +1,124 @@
+/* Color and fonts */
+
+body {
+	background-color: rgb(230, 230, 230); 
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 30px;
+}
+
+h1 {
+	color: #C191A1;
+	font-weight: bolder;
+	font-size: 30px;
+	margin: 20px auto;
+}
+
+h2 {
+  color: #37455efa;
+}
+
+
+a {
+	text-decoration: none;
+	color: #37455efa;
+	font-weight: bolder;
+	font-size: 15px;
+}
+a:hover {
+	color: #C191A1;
+}
+
+ /* Custom design with class (99% of your design) */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		background-color: #d4d7dd;
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: #d4d7dd;
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #759EB8;
+	color: white;  
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #5f6769;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+ /* Design adjusments using id (1% design remaining) */
+#introduction p {
+	margin-bottom:  40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
